@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/azul"
+    android:weightSum="100"
+    android:gravity="center_horizontal"
+    android:id="@+id/login_layout"
+    android:statusBarColor="@color/azul">
+<!--Espaço 1-->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="7" />
+<!--Titulo-->
+    <TextView
+        android:id="@+id/loginTitulo"
+        android:text="@string/nome"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:gravity="center" />
+<!--Slogan-->
+    <TextView
+        android:id="@+id/loginSlogan"
+        android:text="@string/slogan"
+        android:textStyle="normal"
+        android:textSize="17dp"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:gravity="center" />
+<!--Espaço 2-->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="6" />
+<!--Campo de login-->
+    <EditText
+        android:id="@+id/loginLoginCampo"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:singleLine="true"
+        android:hint="@string/login"
+        android:textColor="@color/cinza"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:inputType="text"
+        android:background="@drawable/rounded_edit_text"
+        android:clickable="true" />
+<!--Espaço 3-->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="2" />
+<!--Campo de senha-->
+    <EditText
+        android:id="@+id/loginSenhaCampo"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:singleLine="true"
+        android:hint="@string/senha"
+        android:textColor="@color/cinza"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:background="@drawable/rounded_edit_text"
+        android:clickable="true" />
+<!--Espaço 4-->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="3" />
+<!--Botão de login-->
+    <Button
+        android:id="@+id/loginLoginButton"
+        android:background="@drawable/rounded_edit_text2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:text="@string/login"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="18dp" />
+<!--Espaço 5-->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="2" />
+<!--Botão de login com facebook-->
+    <Button
+        android:id="@+id/loginSenhaButton"
+        android:background="@drawable/rounded_edit_text2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:text="@string/loginFacebook"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="17dp" />
+<!--Espaço 5-->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="14" />
+    <TextView
+        android:id="@+id/registrar"
+        android:text="@string/registrar"
+        android:textStyle="normal"
+        android:textSize="12dp"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:gravity="center" />
+<!--81% do weight completo, falta mais 7%!-->
+</LinearLayout>

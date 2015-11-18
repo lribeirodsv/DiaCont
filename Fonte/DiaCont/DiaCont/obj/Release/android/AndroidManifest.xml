@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="DiaCont.DiaCont" android:versionCode="1" android:versionName="1.0">
+  <uses-sdk android:minSdkVersion="11" />
+  <application android:label="DiaCont" android:icon="@drawable/icon" android:theme="@style/CustomActionBarTheme" android:name="mono.android.app.Application">
+    <activity android:icon="@drawable/icon" android:label="DiaCont" android:name="md56ea1ddd928645b7459af65ec320cab78.MainActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="DiaCont.DiaCont.mono.MonoRuntimeProvider.__mono_init__" />
+    <activity android:icon="@drawable/icon" android:label="DiaCont" android:name="diacont.diacont.TrialSplashScreen" android:theme="@style/Mono.Android.Theme.Splash" android:noHistory="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+  </application>
+</manifest>
