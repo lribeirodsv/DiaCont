@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1"
+    p1:background="@android:color/white">
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="74.9dp"
+        p1:id="@+id/linearLayout2"
+        p1:minWidth="25px"
+        p1:minHeight="25px">
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="250.7dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearLayout3">
+            <TextView
+                p1:text="Consulta A"
+                p1:layout_width="238.2dp"
+                p1:layout_height="30dp"
+                p1:id="@+id/textView2"
+                p1:textColor="@color/cinza"
+                p1:textSize="25dp"
+                p1:gravity="fill_horizontal"
+                p1:layout_marginLeft="7dp"
+                p1:layout_marginTop="7dp" />
+            <TextView
+                p1:text="Doutor Macedo  29/08/2015   20:00"
+                p1:layout_width="245.3dp"
+                p1:layout_height="37.7dp"
+                p1:textSize="15dp"
+                p1:textColor="@color/cinza"
+                p1:id="@+id/textView3"
+                p1:layout_marginLeft="9dp"
+                p1:layout_marginTop="9dp" />
+        </LinearLayout>
+        <CheckBox
+            p1:text="CheckBox"
+            p1:id="@+id/checkBox1"
+            p1:clickable="true"
+            p1:cursorVisible="true"
+            p1:visibility="visible"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:layout_marginLeft="16.8dp" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="74.9dp"
+        p1:id="@+id/linearLayout2"
+        p1:minWidth="25px"
+        p1:minHeight="25px">
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="250.7dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearLayout3">
+            <TextView
+                p1:text="Consulta B"
+                p1:layout_width="238.2dp"
+                p1:layout_height="30dp"
+                p1:id="@+id/textView2"
+                p1:textColor="@color/cinza"
+                p1:textSize="25dp"
+                p1:gravity="fill_horizontal"
+                p1:layout_marginLeft="7dp"
+                p1:layout_marginTop="7dp" />
+            <TextView
+                p1:text="Doutora Maria    18/03/2015   16:00"
+                p1:layout_width="348.9dp"
+                p1:layout_height="37.7dp"
+                p1:textSize="15dp"
+                p1:textColor="@color/cinza"
+                p1:id="@+id/textView3"
+                p1:layout_marginLeft="9dp"
+                p1:layout_marginTop="9dp" />
+        </LinearLayout>
+        <CheckBox
+            p1:text="CheckBox"
+            p1:id="@+id/checkBox1"
+            p1:clickable="true"
+            p1:cursorVisible="true"
+            p1:visibility="visible"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:layout_marginLeft="16.8dp" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="74.9dp"
+        p1:id="@+id/linearLayout2"
+        p1:minWidth="25px"
+        p1:minHeight="25px">
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="250.7dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearLayout3">
+            <TextView
+                p1:text="Consulta C"
+                p1:layout_width="238.2dp"
+                p1:layout_height="30dp"
+                p1:id="@+id/textView2"
+                p1:textColor="@color/cinza"
+                p1:textSize="25dp"
+                p1:gravity="fill_horizontal"
+                p1:layout_marginLeft="7dp"
+                p1:layout_marginTop="7dp" />
+            <TextView
+                p1:text="Doutor Sergio     09/02/2015   15:00"
+                p1:layout_width="348.9dp"
+                p1:layout_height="37.7dp"
+                p1:textSize="15dp"
+                p1:textColor="@color/cinza"
+                p1:id="@+id/textView3"
+                p1:layout_marginLeft="9dp"
+                p1:layout_marginTop="9dp" />
+        </LinearLayout>
+        <CheckBox
+            p1:text="CheckBox"
+            p1:id="@+id/checkBox1"
+            p1:clickable="true"
+            p1:cursorVisible="true"
+            p1:visibility="visible"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:layout_marginLeft="16.8dp" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="74.9dp"
+        p1:id="@+id/linearLayout2"
+        p1:minWidth="25px"
+        p1:minHeight="25px">
+        <LinearLayout
+            p1:orientation="vertical"
+            p1:minWidth="25px"
+            p1:minHeight="25px"
+            p1:layout_width="250.7dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/linearLayout3">
+            <TextView
+                p1:text="Consulta D"
+                p1:layout_width="238.2dp"
+                p1:layout_height="30dp"
+                p1:id="@+id/textView2"
+                p1:textColor="@color/cinza"
+                p1:textSize="25dp"
+                p1:gravity="fill_horizontal"
+                p1:layout_marginLeft="7dp"
+                p1:layout_marginTop="7dp" />
+            <TextView
+                p1:text="Doutor Sergio     01/02/2015   18:00"
+                p1:layout_width="348.9dp"
+                p1:layout_height="37.7dp"
+                p1:textSize="15dp"
+                p1:textColor="@color/cinza"
+                p1:id="@+id/textView3"
+                p1:layout_marginLeft="9dp"
+                p1:layout_marginTop="9dp" />
+        </LinearLayout>
+        <CheckBox
+            p1:text="CheckBox"
+            p1:id="@+id/checkBox1"
+            p1:clickable="true"
+            p1:cursorVisible="true"
+            p1:visibility="visible"
+            p1:layout_width="wrap_content"
+            p1:layout_height="match_parent"
+            p1:layout_marginLeft="16.8dp" />
+    </LinearLayout>
+    <Button
+        p1:text="Excluir"
+        p1:textStyle="bold"
+        p1:layout_width="fill_parent"
+        p1:layout_height="35dp"
+        p1:layout_marginLeft="80dp"
+        p1:layout_marginRight="80dp"
+        p1:background="@drawable/rounded_edit_text2"
+        p1:id="@+id/button1"
+        p1:layout_marginTop="180.1dp" />
+</LinearLayout>

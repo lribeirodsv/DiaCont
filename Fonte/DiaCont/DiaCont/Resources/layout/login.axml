@@ -99,7 +99,8 @@
         android:textStyle="bold"
         android:textColor="@android:color/white"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textSize="18dp" />
+        android:textSize="18dp"
+        android:onClick="loginClick" />
 <!--Espaço 5-->
     <TextView
         android:layout_width="0dp"

@@ -38,6 +38,7 @@ namespace DiaCont
             
             public SamplePagerAdapter() : base()
             {
+                items.Add("Login");
                 items.Add("Nova");
                 items.Add("Alterar");
                 items.Add("Excluir");
@@ -56,14 +57,42 @@ namespace DiaCont
             
             public override Java.Lang.Object InstantiateItem(ViewGroup container, int position)
             {
-                View view = LayoutInflater.From(container.Context).Inflate(Resource.Layout.pager_item, container, false);
+                View view = null;
+
+                if (position == 0)
+                {
+                    view = LayoutInflater.From(container.Context).Inflate(Resource.Layout.login, container, false);
+                    container.AddView(view);
+                    return view;
+                }
+                else if (position == 1) {
+                    view = LayoutInflater.From(container.Context).Inflate(Resource.Layout.nova, container, false);
+                    container.AddView(view);
+                    return view;
+                }
+                else if (position == 2)
+                {
+                    view = LayoutInflater.From(container.Context).Inflate(Resource.Layout.alterar, container, false);
+                    container.AddView(view);
+                    return view;
+                }
+                else if (position == 3)
+                {
+                    view = LayoutInflater.From(container.Context).Inflate(Resource.Layout.excluir, container, false);
+                    container.AddView(view);
+                    return view;
+                }
+                else {
+                    return view;
+                }
+                
+                /*view = LayoutInflater.From(container.Context).Inflate(Resource.Layout.pager_item, container, false);
                 container.AddView(view);
-
                 TextView txtTitle = view.FindViewById<TextView>(Resource.Id.item_title);
-                int pos = position + 1;
-                txtTitle.Text = pos.ToString();
-
-                return view;
+                 int pos = position + 1;
+                 txtTitle.Text = pos.ToString();
+                */
+                
             }
 
             public string GetHeaderTitle (int position)
